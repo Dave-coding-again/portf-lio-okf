@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nsuka Fernando David - Junior Web Developer</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -13,8 +14,12 @@
         <div class="container-foto-perfil">
           <img src="imagem/emoji.jpg" alt="foto">
         </div>
-        <h1>Fernando - Junior Web Developer</h1>
-        <ul>
+        <div class="intro">
+  <h1>Fernando — Junior Web Developer</h1>
+  <h2>Transformando ideias em código. Em busca do próximo passo: meu 
+    <span>Ausbildung</span> em TI.</h2>
+</div>
+<ul>
           <li><a href="#sobre">Sobre</a></li>
           <li><a href="#projetos">Projetos</a></li>
           <li><a href="#contato">Contato</a></li>
@@ -29,10 +34,11 @@
       <div class="container-sobre">
          <div class="foto-sobre">
             <img src="imagem/fotokoln2.jpg" alt="">
+            <p>
+Sou um desenvolvedor iniciante com grande interesse em front-end e JavaScript Aprendo rápido, gosto de resolver problemas e estou construindo projetos reais para evoluir minhas habilidades. Meu objetivo é iniciar uma Ausbildung em TI e contribuir com equipes que criam produtos úteis e bem feitos.</p>
+     
          </div>
-      <p>
-Sou um <span>desenvolvedor</span> iniciante com grande interesse em <span>front-end e JavaScript</span>. Aprendo rápido, gosto de <span>resolver problemas </span> e estou construindo projetos reais para evoluir minhas habilidades. Meu objetivo é iniciar uma <span>Ausbildung</span> em TI e contribuir com equipes que criam produtos úteis e bem feitos.</p>
-      </div>
+       </div>
     </section>
 
     <!-- Seção Projetos -->
@@ -42,44 +48,61 @@ Sou um <span>desenvolvedor</span> iniciante com grande interesse em <span>front-
       <!-- Card do Projeto -->
       <div class="projeto">
         <img src="imagem/movieFinder.png" alt="Imagem do Projeto" />
-        <h3>Projeto 1</h3>
+        <h3>Movie Finder Pagef</h3>
         <p>Uma pequena descrição do que o projeto faz.</p>
-        <a href="https://dave-coding-again.github.io/my-movie-finder-app/">Live Demo</a>
-        <a href="https://github.com/Dave-coding-again/my-movie-finder-app">GitHub Repo</a>
-      </div>
+        <div class="links"><a href="https://dave-coding-again.github.io/my-movie-finder-app/">Live Demo <i class="fa-solid fa-up-right-from-square"></i></a>
+        <a href="https://github.com/Dave-coding-again/my-movie-finder-app">GitHub Repo <i class="fa-solid fa-up-right-from-square"></i></a>
+     </div> </div>
       <div class="projeto">
         <img src="imagem/paginaDeEbooks.png" alt="Imagem do Projeto" />
-        <h3>Projeto 2</h3>
+        <h3>Landing Page of Ebook</h3>
         <p>Uma pequena descrição do que o projeto faz.</p>
-        <a href="https://dave-coding-again.github.io/meu-projeto2/#about">Live Demo</a>
-        <a href="https://github.com/Dave-coding-again/meu-projeto2">GitHub Repo</a>
-      </div>
+        <div class="links">
+            <a href="https://dave-coding-again.github.io/meu-projeto2/#about">Live Demo <i class="fa-solid fa-up-right-from-square"></i></a>
+        <a href="https://github.com/Dave-coding-again/meu-projeto2">GitHub Repo <i class="fa-solid fa-up-right-from-square"></i></a>
+      
+        </div></div>
       
       <div class="projeto">
         <img src="imagem/vendasCelulares" alt="Imagem do Projeto" />
-        <h3>Projeto 4</h3>
+        <h3>Landing Page E-commerce</h3>
         <p>Uma pequena descrição do que o projeto faz.</p>
-        <a href="https://dave-coding-again.github.io/my-ebook/">Live Demo</a>
-        <a href="https://github.com/Dave-coding-again/my-ebook">GitHub Repo</a>
-      </div>
+       <div class="links">
+         <a href="https://dave-coding-again.github.io/my-ebook/">Live Demo <i class="fa-solid fa-up-right-from-square"></i></a>
+        <a href="https://github.com/Dave-coding-again/my-ebook">GitHub Repo <i class="fa-solid fa-up-right-from-square"></i></a>
+     
+       </div> </div>
     </section>
-
+  
     <!-- Seção Contato -->
     <section id="contato">
       <h2>Contato</h2>
-      <form>
-        <input type="text" placeholder="Seu nome" required />
-        <input type="email" placeholder="Seu e-mail" required />
-        <textarea placeholder="Sua mensagem" required></textarea>
-        <button type="submit">Enviar</button>
+    
+<div class="form-container">
+      <form class="form">
+        <div class="form-group">
+          <label for="email">Company Email</label>
+          <input type="text" id="email" name="email" required="">
+        </div>
+        <div class="form-group">
+          <label for="textarea">How Can We Help You?</label>
+          <textarea name="textarea" id="textarea" rows="10" cols="50" required=""></textarea>
+        </div>
+        <button class="form-submit-btn" type="submit" id="button">Submit</button>
       </form>
+    </div>
     </section>
 
     <footer>
       <p>© 2025 Seu Nome. Todos os direitos reservados.</p>
       <div class="social-media">
         <!--colocar redes socias-->
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-whatsapp"></i>
+        <i class="fa-brands fa-linkedin-in"></i>
+       
       </div>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
