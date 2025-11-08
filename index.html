@@ -1,118 +1,189 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="de">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nsuka Fernando David - Junior Web Developer</title>
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- Header -->
     <header id="home">
-        <nav>
+      <nav>
         <div class="container-foto-perfil">
-          <img src="imagem/emoji.jpg" alt="foto">
+          <img src="imagem/emoji.jpg" alt="Foto" />
         </div>
         <div class="intro">
-  <h1>Fernando — Junior Web Developer</h1>
-  <h2>Transformando ideias em código. Em busca do próximo passo: meu 
-    <span>Ausbildung</span> em TI.</h2>
-</div>
-<ul>
-          <li><a href="#sobre">Sobre</a></li>
-          <li><a href="#projetos">Projetos</a></li>
-          <li><a href="#contato">Contato</a></li>
+          <h1>Fernando — Junior Web Developer</h1>
+          <h2>
+            Die Zukunft gestalten mit Code und intelligentem UX-Design. Offen
+            für
+            <span>Ausbildung</span> und reale Projekte.
+          </h2>
+        </div>
+        <ul>
+          <li><a href="#sobre">Über mich</a></li>
+          <li><a href="#projetos">Projekte</a></li>
+          <li><a href="#contato">Kontakt</a></li>
         </ul>
       </nav>
-      </div>
     </header>
 
-    <!-- Seção Sobre -->
+    <!-- Über mich -->
     <section id="sobre">
-      <h2>Sobre Mim</h2>
+      <h2>Über mich</h2>
       <div class="container-sobre">
-        
-            <img src="imagem/fotokoln2.jpg" alt="">
-            <p>
-Sou um desenvolvedor iniciante com grande interesse em front-end e JavaScript Aprendo rápido, gosto de resolver problemas e estou construindo projetos reais para evoluir minhas habilidades. Meu objetivo é iniciar uma Ausbildung em TI e contribuir com equipes que criam produtos úteis e bem feitos.</p>
-         </div>
+        <img src="imagem/fotokoln2.jpg" alt="Foto von Fernando" />
+        <p>
+          Ich bin ein angehender Webentwickler mit großem Interesse an
+          Frontend-Entwicklung und JavaScript. Ich lerne schnell, löse gerne
+          Probleme und arbeite an realen Projekten, um meine Fähigkeiten
+          weiterzuentwickeln. Mein Ziel ist es, eine Ausbildung in der IT zu
+          beginnen und mit Teams zusammenzuarbeiten, die nützliche und
+          hochwertige Produkte schaffen.
+        </p>
+      </div>
     </section>
 
-    <!-- Seção Projetos -->
+    <!-- Projekte -->
     <section id="projetos">
-      <h2>Projetos</h2>
-
-      <!-- Card do Projeto -->
+      <h2>Projekte</h2>
+      <h4 style="text-align: center;width: 400px; font-weight: 400; font-family: Arial, Helvetica, sans-serif;">
+        Ich entwickle kontinuierlich neue Projekte, um meine Fähigkeiten zu
+        verbessern und bessere digitale Lösungen zu liefern. Hier sind einige
+        aktuelle Beispiele meiner Arbeit:
+      </h4>
       <div id="container-projetos">
         <div class="projeto">
-        <img src="imagem/movieFinder.png" alt="Imagem do Projeto" />
-        <h3>Movie Finder Page</h3>
-        <p>O Movie Finder Page é uma página moderna e intuitiva feita para quem ama cinema. Descubra filmes, explore detalhes e encontre o que assistir em poucos cliques — tudo com um design leve e envolvente.</p>
-        <div class="links"><a href="https://dave-coding-again.github.io/my-movie-finder-app/">Live Demo <i class="fa-solid fa-up-right-from-square"></i></a>
-        <a href="https://github.com/Dave-coding-again/my-movie-finder-app">GitHub Repo <i class="fa-solid fa-up-right-from-square"></i></a>
-     </div> </div>
-      <div class="projeto">
-        <img src="imagem/paginaDeEbooks.png" alt="Imagem do Projeto" />
-        <h3>Landing Page of Ebook</h3>
-        <p>A Landing Page of Ebook foi criada para apresentar seu e-book de forma clara e envolvente. Com um design moderno e foco na conversão, ela destaca os principais benefícios do conteúdo e guia o visitante até a compra com elegância e simplicidade.</p>
-        <div class="links">
-            <a href="https://dave-coding-again.github.io/meu-projeto2/#about">Live Demo <i class="fa-solid fa-up-right-from-square"></i></a>
-        <a href="https://github.com/Dave-coding-again/meu-projeto2">GitHub Repo <i class="fa-solid fa-up-right-from-square"></i></a>
-      
-        </div></div>
-      
-      <div class="projeto">
-        <img src="imagem/vendasCelulares" alt="Imagem do Projeto" />
-        <h3>Landing Page E-commerce</h3>
-        <p>A Landing Page E-commerce é uma vitrine moderna e estratégica feita para destacar produtos e gerar vendas. Com um design atraente, navegação fluida e foco total na experiência do usuário, ela transforma visitantes em clientes.</p>
-       <div class="links">
-         <a href="https://dave-coding-again.github.io/my-ebook/">Live Demo <i class="fa-solid fa-up-right-from-square"></i></a>
-        <a href="https://github.com/Dave-coding-again/my-ebook">GitHub Repo <i class="fa-solid fa-up-right-from-square"></i></a>
-     
-       </div> </div>
-    </section>
-  <div id="container-pop-up">
-    <div class="pop-up">
-      <p>Enviado!</p>
-    </div>
-  </div>
-    <!-- Seção Contato -->
-    <section id="contato">
-      <h2>Contato</h2>
-    
-<div class="form-container">
-      <form class="form" id="contact-form">
-  <div class="form-group">
-    <label for="name">Name</label>
-    <input type="text" id="name" name="name" placeholder="Seu nome" required>
-  </div>
-  <div class="form-group">
-    <label for="email">Company Email</label>
-    <input type="email" id="email" name="email" placeholder="Seu e-mail" required>
-  </div>
-  <div class="form-group">
-    <label for="textarea">How Can We Help You?</label>
-    <textarea name="message" id="textarea" rows="10" cols="50" placeholder="Sua mensagem" required></textarea>
-  </div>
-  <button class="form-submit-btn" type="submit" id="button">Submit</button>
-</form>
+          <img src="imagem/movieFinder.png" alt="Projektbild" />
+          <h3>Movie Finder Page</h3>
+          <p>Nutzung einer externen API zur Filmsuche in Echtzeit</p>
+          <p>Benutzerfreundliche Oberfläche für schnelle Ergebnisse</p>
+          <p>Dynamische DOM-Manipulation mit JavaScript</p>
+          <div class="links">
+            <a href="https://dave-coding-again.github.io/my-movie-finder-app/"
+              >Live Demo <i class="fa-solid fa-up-right-from-square"></i
+            ></a>
+            <a href="https://github.com/Dave-coding-again/my-movie-finder-app"
+              >GitHub Repo <i class="fa-solid fa-up-right-from-square"></i
+            ></a>
+          </div>
+        </div>
 
+        <div class="projeto">
+          <img src="imagem/paginaDeEbooks.png" alt="Projektbild" />
+          <h3>Landing Page für Ebook</h3>
+          <p>Konversionsorientiertes, klares UI-Design</p>
+          <p>Semantische HTML-Struktur für besseres SEO</p>
+          <p>Funktionales Kontaktformular mit E-Mail-Versand</p>
+          <div class="links">
+            <a href="https://dave-coding-again.github.io/meu-projeto2/#about"
+              >Live Demo <i class="fa-solid fa-up-right-from-square"></i
+            ></a>
+            <a href="https://github.com/Dave-coding-again/meu-projeto2"
+              >GitHub Repo <i class="fa-solid fa-up-right-from-square"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="projeto">
+          <img src="imagem/vendasCelulares" alt="Projektbild" />
+          <h3>Landing Page für E-commerce</h3>
+          <p>Wiederverwendbare Komponenten für hohe Skalierbarkeit</p>
+          <p>Vollständig getestet auf Mobil- und Desktopgeräten</p>
+          <p>Versionskontrolle und Hosting über GitHub</p>
+          <div class="links">
+            <a href="https://dave-coding-again.github.io/my-ebook/"
+              >Live Demo <i class="fa-solid fa-up-right-from-square"></i
+            ></a>
+            <a href="https://github.com/Dave-coding-again/my-ebook"
+              >GitHub Repo <i class="fa-solid fa-up-right-from-square"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pop-up -->
+    <div id="container-pop-up">
+      <div class="pop-up">
+        <i class="fa-solid fa-circle-check"></i>
+        <p>Gesendet!</p>
+      </div>
+      <div class="pop-up error">
+        <i class="fa-solid fa-circle-exclamation"></i>
+        <p>Felher!</p>
+      </div>
     </div>
+
+    <!-- Kontakt -->
+    <section id="contato">
+      <h2>Kontakt</h2>
+
+      <div class="form-container">
+        <form class="form" id="contact-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Ihr Name"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Firmen-E-Mail</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Ihre E-Mail"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="textarea">Wie können wir Ihnen helfen?</label>
+            <textarea
+              name="message"
+              id="textarea"
+              rows="10"
+              cols="50"
+              placeholder="Ihre Nachricht"
+              required
+            ></textarea>
+          </div>
+          <button class="form-submit-btn" type="submit" id="button">
+            Senden
+          </button>
+        </form>
       </div>
     </section>
 
     <footer>
-      <p>© 2025 Seu Nome. Todos os direitos reservados.</p>
+      <p>© 2025 Nsuka Fernando Dave. Alle Rechte vorbehalten.</p>
       <div class="social-media">
-        <!--colocar redes socias-->
-       <a href="https://www.instagram.com/_brodavedev/"> <i class="fa-brands fa-instagram"></i></a>
-       <a href="https://wa.me/4915215168868"> <i class="fa-brands fa-whatsapp"></i></a>
-        <a href="https://www.linkedin.com/in/fernando-david-nsuka-6b5bb8314/?locale=de_DE"><i class="fa-brands fa-linkedin-in"></i></a>
-       
+        <a href="https://www.instagram.com/_brodavedev/"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a href="https://wa.me/4915215168868"
+          ><i class="fa-brands fa-whatsapp"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/fernando-david-nsuka-6b5bb8314/?locale=de_DE"
+          ><i class="fa-brands fa-linkedin-in"></i
+        ></a>
       </div>
     </footer>
-   <script src="https://cdn.emailjs.com/dist/email.min.js"></script> 
-   <script src="script.js"></script>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script src="script.js"></script>
   </body>
 </html>
