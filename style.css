@@ -108,15 +108,15 @@ nav a:hover {
 
 .container-sobre p {
   width: 290px;
-  height: 190px;
+  height: 160px;
   border-radius: 8px;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   padding: 0.9rem;
   text-align: center;
   background-color: var(--bg-color);
   letter-spacing: 0.8px;
   margin: 0 auto;
-  overflow: auto;
+  overflow: hidden;
 }
 .container-sobre img {
   width: 290px;
@@ -371,6 +371,7 @@ footer {
   gap: 20px;
   text-align: center;
   font-size: 0.8rem;
+  margin: 1.1rem;
 }
 footer i {
   font-size: 1.2rem;
