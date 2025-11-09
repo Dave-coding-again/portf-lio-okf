@@ -18,6 +18,9 @@ body {
     "Helvetica Neue", Arial, sans-serif;
   margin: 1.5rem;
   position: relative;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 nav {
   display: flex;
@@ -234,7 +237,6 @@ nav a:hover {
   color: #fff;
 }
 
-
 #contato {
   display: flex;
   align-items: center;
@@ -425,5 +427,19 @@ footer i:hover {
   .form-container {
     min-width: 500px;
   }
- 
+}
+@media (max-width: 400px) {
+  .intro,
+  .intro h2,
+  .container-sobre p,
+  .container-sobre img,
+  #projetos img,
+  .form-container {
+    width: 90%;
+    max-width: 100%;
+  }
+
+  .container-sobre p {
+    height: auto; /* evita cortar texto */
+  }
 }
