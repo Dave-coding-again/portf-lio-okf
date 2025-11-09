@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 * {
   margin: 0;
   padding: 0;
@@ -22,14 +25,30 @@ body {
   padding: 0;
   overflow-x: hidden;
 }
-nav {
+header{
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  text-align: center;
+  margin: 1.5rem;
+  position: relative;
+ 
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 10px;
   margin: 1.9rem;
   text-align: center;
+  position: fixed;
+  z-index: 9999;
+  background-color:#0e0e0e;
+  width: 100%;
+  top: -2px;
+  transform: translateY(-50%);
 }
 .intro {
   display: flex;
@@ -38,8 +57,9 @@ nav {
   flex-direction: column;
   gap: 5px;
   font-size: 0.9rem;
-  z-index: 99999;
   width: 300px;
+  margin-top: 3.5rem;
+  
 }
 .intro h2 {
   width: 250px;
@@ -64,6 +84,8 @@ nav ul {
   justify-content: center;
   gap: 10px;
   font-size: clamp(0.6rem, 2vw, 1.5rem);
+  position: relative;
+
 }
 nav li,
 a {
@@ -73,6 +95,7 @@ a {
   transition: all 0.2s ease;
 }
 
+
 nav a:hover {
   color: #ffff;
   background-color: #e81cff;
@@ -80,8 +103,9 @@ nav a:hover {
   border-radius: 8px;
 }
 .container-foto-perfil img {
-  width: 60px;
+  width: 50px;
   border-radius: 50%;
+  padding: 0.2rem;
 }
 #sobre {
   display: flex;
@@ -393,8 +417,9 @@ footer i:hover {
 @media (min-width: 1024px) and (max-width: 1440px) {
   nav {
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 20px;
   }
   nav a,
   li {
@@ -403,7 +428,7 @@ footer i:hover {
   .intro {
     min-width: 500px;
     max-width: 400px;
-    margin-left: 7rem;
+  
   }
   .intro h2 {
     width: 500px;
